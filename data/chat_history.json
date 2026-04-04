@@ -1,0 +1,104 @@
+{
+  "55b89847-dc87-4aa6-a876-c803a7f7ea74": {
+    "84741243-019f-4674-a749-e70ed94e59d8": [
+      {
+        "role": "user",
+        "content": "explain sorting",
+        "timestamp": "2026-04-03T09:44:14.728511"
+      },
+      {
+        "role": "assistant",
+        "content": "Common sorts: Bubble O(n\u00b2), Merge O(n log n), Quick O(n log n) average. Python's built-in uses Timsort.",
+        "timestamp": "2026-04-03T09:44:14.728511"
+      }
+    ]
+  },
+  "020545e5-5d80-4f31-a702-13d2b83ab100": {
+    "73f4ee76-388f-4774-b3b6-9a00c4ee8c87": [
+      {
+        "role": "user",
+        "content": "recursion",
+        "timestamp": "2026-04-03T16:34:28.188439"
+      },
+      {
+        "role": "assistant",
+        "content": "Recursion is when a function calls itself. Classic example: `def factorial(n): return 1 if n == 0 else n * factorial(n-1)`.",
+        "timestamp": "2026-04-03T16:34:28.188439"
+      }
+    ],
+    "833658b0-1d07-4e2a-8c38-e7e4c5696506": [
+      {
+        "role": "user",
+        "content": "what is inheritance",
+        "timestamp": "2026-04-03T16:34:57.897412"
+      },
+      {
+        "role": "assistant",
+        "content": "In Python, inherit from a class: `class Cat(Animal): pass`. The child class gets all parent methods.",
+        "timestamp": "2026-04-03T16:34:57.897412"
+      },
+      {
+        "role": "user",
+        "content": "inheritance",
+        "timestamp": "2026-04-03T16:35:21.189352"
+      },
+      {
+        "role": "assistant",
+        "content": "In Python, inherit from a class: `class Cat(Animal): pass`. The child class gets all parent methods.",
+        "timestamp": "2026-04-03T16:35:21.189352"
+      }
+    ]
+  },
+  "d9826954-2aae-4ef1-b259-fe918a9bcb27": {
+    "6cc723fe-c79a-4dd9-ba04-42b417a68228": [
+      {
+        "role": "user",
+        "content": "hi",
+        "timestamp": "2026-04-03T22:35:34.809861",
+        "detected_mode": "concept_explanation"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi a! I'm ready to explain a Computer Science concept for you.\n\nWhat CS concept would you like to learn about today? Just tell me the topic, and I'll explain it clearly with a small example, using either Python or JavaScript, whichever you prefer.",
+        "timestamp": "2026-04-03T22:35:34.809861"
+      },
+      {
+        "role": "user",
+        "content": "hi",
+        "timestamp": "2026-04-03T22:35:49.171942",
+        "detected_mode": "concept_explanation"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi a! I'm still here and ready to explain a Computer Science concept for you.\n\nJust tell me what topic you'd like to learn about today, and whether you'd prefer the example in Python or JavaScript. I'll explain it clearly with a small code example.",
+        "timestamp": "2026-04-03T22:35:49.171942"
+      },
+      {
+        "role": "user",
+        "content": "doubt",
+        "timestamp": "2026-04-03T22:35:59.382221",
+        "detected_mode": "concept_explanation"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi a,\n\nThanks for letting me know you have a doubt! I'm here to help you understand things better.\n\nCould you please tell me what your doubt is about? What specific concept or topic are you curious about or finding confusing? Once you tell me, I can explain it clearly for you with a small example in Python or JavaScript.\n\nJust let me know!",
+        "timestamp": "2026-04-03T22:35:59.382221"
+      }
+    ]
+  },
+  "b5d3874b-c521-429e-b514-6987f117f9fa": {
+    "10fa597e-3019-448c-a8fc-32be3b8d3670": [
+      {
+        "role": "user",
+        "content": "hii",
+        "timestamp": "2026-04-04T02:36:25.709632",
+        "detected_mode": "concept_explanation"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi Nihar Dukale, it's nice to meet you. Since you're interested in learning data structures and algorithms (DSA), let's start with a basic concept. How about we explore the idea of a stack? A stack is a way to store and retrieve data in a last-in-first-out order. Think of it like a pile of plates, where you add and remove plates from the top. \n\nFor example, in Python, you can create a simple stack using a list. You can add elements to the stack using the append method and remove elements using the pop method. Here's a tiny example: you can create a stack, add elements 1, 2, and 3, then remove the top element. The stack will now have elements 1 and 2. What specific area of DSA would you like to explore further?",
+        "timestamp": "2026-04-04T02:36:25.709632"
+      }
+    ]
+  }
+}

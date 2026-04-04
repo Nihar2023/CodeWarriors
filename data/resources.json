@@ -1,0 +1,130 @@
+[
+  {
+    "id": "res_js_dsa_1",
+    "topic_id": "js_dsa",
+    "type": "video",
+    "title": "JavaScript Arrays & Objects Deep Dive",
+    "url": "https://www.youtube.com/watch?v=oigfaZ5ApsM",
+    "description": "Comprehensive video on arrays and objects in JavaScript"
+  },
+  {
+    "id": "res_js_dsa_1b",
+    "topic_id": "js_dsa",
+    "type": "pdf",
+    "title": "DSA Quick Reference Sheet (PDF)",
+    "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    "description": "Downloadable one-pager template for your own DSA summary notes"
+  },
+  {
+    "id": "res_js_dsa_2",
+    "topic_id": "js_dsa",
+    "type": "notes",
+    "title": "DSA Concepts – JS Notes",
+    "url": "https://javascript.info/data-types",
+    "description": "Written notes covering stacks, queues, linked lists, and trees"
+  },
+  {
+    "id": "res_js_dsa_3",
+    "topic_id": "js_dsa",
+    "type": "practice",
+    "title": "LeetCode JavaScript DSA Problems",
+    "url": "https://leetcode.com/problemset/",
+    "description": "Practice problems on DSA using JavaScript"
+  },
+  {
+    "id": "res_js_oop_1",
+    "topic_id": "js_oop",
+    "type": "video",
+    "title": "JavaScript OOP Full Course",
+    "url": "https://www.youtube.com/watch?v=PFmuCDHHpwk",
+    "description": "Full course on OOP concepts in JavaScript"
+  },
+  {
+    "id": "res_js_oop_1b",
+    "topic_id": "js_oop",
+    "type": "pdf",
+    "title": "OOP Terminology – Printable Sheet (PDF)",
+    "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    "description": "Printable sheet for class / prototype vocabulary practice"
+  },
+  {
+    "id": "res_js_oop_2",
+    "topic_id": "js_oop",
+    "type": "notes",
+    "title": "OOP in JS – MDN Reference",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming",
+    "description": "MDN guide covering classes, prototypes, and inheritance"
+  },
+  {
+    "id": "res_js_oop_3",
+    "topic_id": "js_oop",
+    "type": "practice",
+    "title": "JS OOP Practice Exercises",
+    "url": "https://exercism.org/tracks/javascript",
+    "description": "Hands-on OOP exercises for JavaScript"
+  },
+  {
+    "id": "res_py_dsa_1",
+    "topic_id": "py_dsa",
+    "type": "video",
+    "title": "Python Data Structures Full Course",
+    "url": "https://www.youtube.com/watch?v=pkYVOmU3MgA",
+    "description": "In-depth video on Python lists, dicts, stacks, queues"
+  },
+  {
+    "id": "res_py_dsa_1b",
+    "topic_id": "py_dsa",
+    "type": "pdf",
+    "title": "Python Collections – Study PDF",
+    "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    "description": "PDF placeholder for offline revision; pair with Real Python article"
+  },
+  {
+    "id": "res_py_dsa_2",
+    "topic_id": "py_dsa",
+    "type": "notes",
+    "title": "Python DSA Notes – Real Python",
+    "url": "https://realpython.com/python-data-structures/",
+    "description": "Structured notes on Python data structures"
+  },
+  {
+    "id": "res_py_dsa_3",
+    "topic_id": "py_dsa",
+    "type": "practice",
+    "title": "Python DSA – HackerRank",
+    "url": "https://www.hackerrank.com/domains/python",
+    "description": "Python DSA practice problems on HackerRank"
+  },
+  {
+    "id": "res_py_oop_1",
+    "topic_id": "py_oop",
+    "type": "video",
+    "title": "Python OOP Tutorial",
+    "url": "https://www.youtube.com/watch?v=JeznW_7DlB0",
+    "description": "Python classes, inheritance, and polymorphism explained"
+  },
+  {
+    "id": "res_py_oop_1b",
+    "topic_id": "py_oop",
+    "type": "pdf",
+    "title": "OOP in Python – Summary PDF",
+    "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    "description": "Offline-friendly summary template for classes and inheritance"
+  },
+  {
+    "id": "res_py_oop_2",
+    "topic_id": "py_oop",
+    "type": "notes",
+    "title": "Python OOP – Official Docs",
+    "url": "https://docs.python.org/3/tutorial/classes.html",
+    "description": "Official Python documentation on classes and OOP"
+  },
+  {
+    "id": "res_py_oop_3",
+    "topic_id": "py_oop",
+    "type": "practice",
+    "title": "Python OOP Exercises – Exercism",
+    "url": "https://exercism.org/tracks/python",
+    "description": "OOP practice exercises in Python"
+  }
+]

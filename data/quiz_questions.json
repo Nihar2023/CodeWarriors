@@ -1,0 +1,590 @@
+{
+  "quiz_js_dsa": {
+    "id": "quiz_js_dsa",
+    "topic_id": "js_dsa",
+    "title": "JavaScript DSA Quiz",
+    "questions": [
+      {
+        "id": "q_js_dsa_1",
+        "question": "What is the time complexity of accessing an element in an array by index?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+        "answer": 0,
+        "explanation": "Array index access is O(1) because arrays store elements in contiguous memory, allowing direct offset calculation."
+      },
+      {
+        "id": "q_js_dsa_2",
+        "question": "Which data structure follows the LIFO (Last In First Out) principle?",
+        "options": ["Queue", "Stack", "Linked List", "Tree"],
+        "answer": 1,
+        "explanation": "A Stack follows LIFO — the last element pushed is the first one popped."
+      },
+      {
+        "id": "q_js_dsa_3",
+        "question": "What does `Array.prototype.push()` return in JavaScript?",
+        "options": ["The pushed element", "The new length of the array", "undefined", "The array itself"],
+        "answer": 1,
+        "explanation": "push() adds elements to the end of the array and returns the new length."
+      },
+      {
+        "id": "q_js_dsa_4",
+        "question": "Which sorting algorithm has the best average-case time complexity?",
+        "options": ["Bubble Sort", "Selection Sort", "Merge Sort", "Insertion Sort"],
+        "answer": 2,
+        "explanation": "Merge Sort has O(n log n) average and worst-case complexity, making it one of the most efficient general-purpose sorting algorithms."
+      },
+      {
+        "id": "q_js_dsa_5",
+        "question": "In JavaScript, what method removes the last element from an array?",
+        "options": ["shift()", "unshift()", "pop()", "splice()"],
+        "answer": 2,
+        "explanation": "pop() removes and returns the last element of an array."
+      },
+      {
+        "id": "q_js_dsa_6",
+        "question": "What is the space complexity of a singly linked list with n nodes?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+        "answer": 2,
+        "explanation": "A linked list with n nodes stores n node objects, so space complexity is O(n)."
+      },
+      {
+        "id": "q_js_dsa_7",
+        "question": "Which data structure is best suited for breadth-first search (BFS)?",
+        "options": ["Stack", "Queue", "Heap", "Array"],
+        "answer": 1,
+        "explanation": "BFS uses a Queue to process nodes level by level, ensuring FIFO order."
+      },
+      {
+        "id": "q_js_dsa_8",
+        "question": "What is the output of `[1,2,3].map(x => x * 2)` in JavaScript?",
+        "options": ["[1,2,3]", "[2,4,6]", "[1,4,9]", "undefined"],
+        "answer": 1,
+        "explanation": "map() applies the callback to each element and returns a new array: [2, 4, 6]."
+      },
+      {
+        "id": "q_js_dsa_9",
+        "question": "Binary search requires the array to be:",
+        "options": ["Unsorted", "Sorted", "Contains unique elements", "Have even length"],
+        "answer": 1,
+        "explanation": "Binary search works by repeatedly halving the search space, which only works on sorted arrays."
+      },
+      {
+        "id": "q_js_dsa_10",
+        "question": "What is the worst-case time complexity of Quick Sort?",
+        "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+        "answer": 2,
+        "explanation": "Quick Sort degrades to O(n²) when the pivot is always the smallest or largest element (already sorted array)."
+      },
+      {
+        "id": "q_js_dsa_11",
+        "question": "In a binary tree, what is the maximum number of nodes at level k?",
+        "options": ["k", "2k", "2^k", "k²"],
+        "answer": 2,
+        "explanation": "At level k (root = level 0), a binary tree can have at most 2^k nodes."
+      },
+      {
+        "id": "q_js_dsa_12",
+        "question": "Which JavaScript method creates a shallow copy of a portion of an array?",
+        "options": ["splice()", "slice()", "concat()", "filter()"],
+        "answer": 1,
+        "explanation": "slice() returns a shallow copy of a portion of an array without modifying the original."
+      },
+      {
+        "id": "q_js_dsa_13",
+        "question": "What is a hash table's average time complexity for lookup?",
+        "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+        "answer": 2,
+        "explanation": "Hash tables provide O(1) average-case lookups using a hash function to map keys to indices."
+      },
+      {
+        "id": "q_js_dsa_14",
+        "question": "Which traversal visits the root node first in a binary tree?",
+        "options": ["In-order", "Post-order", "Pre-order", "Level-order"],
+        "answer": 2,
+        "explanation": "Pre-order traversal visits: Root → Left → Right."
+      },
+      {
+        "id": "q_js_dsa_15",
+        "question": "What does `Array.prototype.reduce()` do?",
+        "options": [
+          "Filters elements from an array",
+          "Maps each element to a new value",
+          "Reduces an array to a single value using a callback",
+          "Sorts the array"
+        ],
+        "answer": 2,
+        "explanation": "reduce() executes a reducer callback on each element, accumulating the result into a single output value."
+      }
+    ]
+  },
+  "quiz_js_oop": {
+    "id": "quiz_js_oop",
+    "topic_id": "js_oop",
+    "title": "JavaScript OOP Quiz",
+    "questions": [
+      {
+        "id": "q_js_oop_1",
+        "question": "Which keyword is used to define a class in JavaScript?",
+        "options": ["function", "class", "object", "define"],
+        "answer": 1,
+        "explanation": "The `class` keyword introduced in ES6 is used to define a class in JavaScript."
+      },
+      {
+        "id": "q_js_oop_2",
+        "question": "What is encapsulation in OOP?",
+        "options": [
+          "Inheriting properties from a parent class",
+          "Bundling data and methods that operate on that data within a single unit",
+          "Creating multiple forms of a method",
+          "Hiding the implementation from all other objects"
+        ],
+        "answer": 1,
+        "explanation": "Encapsulation bundles data (properties) and behavior (methods) into a single unit (class), controlling access."
+      },
+      {
+        "id": "q_js_oop_3",
+        "question": "Which keyword is used in a subclass to call the parent class constructor in JavaScript?",
+        "options": ["this()", "parent()", "super()", "base()"],
+        "answer": 2,
+        "explanation": "super() calls the constructor of the parent class. It must be called before using `this` in a subclass."
+      },
+      {
+        "id": "q_js_oop_4",
+        "question": "What does `instanceof` operator check in JavaScript?",
+        "options": [
+          "If a variable is null",
+          "If an object is an instance of a specific class or constructor",
+          "If a class is a subclass",
+          "If a property exists in an object"
+        ],
+        "answer": 1,
+        "explanation": "`instanceof` checks whether an object is created from a specific class or its parent class."
+      },
+      {
+        "id": "q_js_oop_5",
+        "question": "Which OOP principle allows a child class to override a parent class method?",
+        "options": ["Encapsulation", "Abstraction", "Polymorphism", "Composition"],
+        "answer": 2,
+        "explanation": "Polymorphism allows child classes to provide their own implementation of methods defined in the parent class."
+      },
+      {
+        "id": "q_js_oop_6",
+        "question": "In JavaScript, what does `Object.create(proto)` do?",
+        "options": [
+          "Copies all properties of proto",
+          "Creates a new object with proto as its prototype",
+          "Clones the object deeply",
+          "Merges two objects"
+        ],
+        "answer": 1,
+        "explanation": "Object.create() creates a new object with the specified object as its prototype."
+      },
+      {
+        "id": "q_js_oop_7",
+        "question": "What is the purpose of a constructor method in a JavaScript class?",
+        "options": [
+          "To destroy an object",
+          "To initialize an object's properties when it is created",
+          "To define static methods",
+          "To inherit from a parent class"
+        ],
+        "answer": 1,
+        "explanation": "The constructor is automatically called when a new instance is created, used to set initial property values."
+      },
+      {
+        "id": "q_js_oop_8",
+        "question": "Which of these is NOT a pillar of OOP?",
+        "options": ["Inheritance", "Polymorphism", "Compilation", "Encapsulation"],
+        "answer": 2,
+        "explanation": "The four pillars of OOP are: Encapsulation, Abstraction, Inheritance, and Polymorphism. Compilation is not one."
+      },
+      {
+        "id": "q_js_oop_9",
+        "question": "How do you define a static method in a JavaScript class?",
+        "options": [
+          "Using the `fixed` keyword",
+          "By placing it outside the class",
+          "Using the `static` keyword before the method name",
+          "Using `this.static`"
+        ],
+        "answer": 2,
+        "explanation": "Static methods are defined with the `static` keyword and are called on the class itself, not instances."
+      },
+      {
+        "id": "q_js_oop_10",
+        "question": "What does `#` before a property name mean in a JavaScript class?",
+        "options": [
+          "It's a comment",
+          "The property is static",
+          "The property is private",
+          "The property is inherited"
+        ],
+        "answer": 2,
+        "explanation": "The `#` prefix declares a private class field, accessible only within the class body."
+      },
+      {
+        "id": "q_js_oop_11",
+        "question": "Which is the correct way to inherit from a parent class in JavaScript?",
+        "options": [
+          "class Child inherits Parent {}",
+          "class Child extends Parent {}",
+          "class Child : Parent {}",
+          "class Child implements Parent {}"
+        ],
+        "answer": 1,
+        "explanation": "The `extends` keyword is used to create a class that is a child of another class."
+      },
+      {
+        "id": "q_js_oop_12",
+        "question": "What is a getter in a JavaScript class?",
+        "options": [
+          "A method that sets a property value",
+          "A method that retrieves an object from storage",
+          "A special method that gets the value of a property",
+          "A constructor function"
+        ],
+        "answer": 2,
+        "explanation": "A getter (defined with `get`) allows you to access a property with computed or controlled value."
+      },
+      {
+        "id": "q_js_oop_13",
+        "question": "What is prototypal inheritance in JavaScript?",
+        "options": [
+          "Using the `class` keyword to inherit",
+          "Objects inheriting directly from other objects via prototype chain",
+          "A feature exclusive to TypeScript",
+          "Copying methods from one class to another"
+        ],
+        "answer": 1,
+        "explanation": "JavaScript uses prototypal inheritance where objects can directly inherit properties and methods from other objects."
+      },
+      {
+        "id": "q_js_oop_14",
+        "question": "Which of the following best describes abstraction in OOP?",
+        "options": [
+          "Combining data and methods together",
+          "Hiding complex implementation and showing only necessary features",
+          "Creating multiple classes from one template",
+          "Overriding parent methods"
+        ],
+        "answer": 1,
+        "explanation": "Abstraction hides complex implementation details and exposes only the relevant interface to the user."
+      },
+      {
+        "id": "q_js_oop_15",
+        "question": "What will `typeof class Foo {}` return in JavaScript?",
+        "options": ["object", "class", "function", "undefined"],
+        "answer": 2,
+        "explanation": "In JavaScript, classes are syntactic sugar over constructor functions, so `typeof` returns 'function'."
+      }
+    ]
+  },
+  "quiz_py_dsa": {
+    "id": "quiz_py_dsa",
+    "topic_id": "py_dsa",
+    "title": "Python DSA Quiz",
+    "questions": [
+      {
+        "id": "q_py_dsa_1",
+        "question": "What is the time complexity of accessing an element by index in a Python list?",
+        "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+        "answer": 2,
+        "explanation": "Python lists are backed by dynamic arrays, so index access is O(1)."
+      },
+      {
+        "id": "q_py_dsa_2",
+        "question": "Which Python data structure uses key-value pairs?",
+        "options": ["list", "tuple", "set", "dictionary"],
+        "answer": 3,
+        "explanation": "Python dictionaries store data as key-value pairs and are implemented as hash tables."
+      },
+      {
+        "id": "q_py_dsa_3",
+        "question": "What does `list.append()` do in Python?",
+        "options": [
+          "Removes the last element",
+          "Inserts element at a specific index",
+          "Adds element to the beginning",
+          "Adds element to the end"
+        ],
+        "answer": 3,
+        "explanation": "append() adds the specified element to the end of the list."
+      },
+      {
+        "id": "q_py_dsa_4",
+        "question": "Which sorting algorithm is used by Python's built-in `sorted()` function?",
+        "options": ["Quick Sort", "Merge Sort", "Timsort", "Heap Sort"],
+        "answer": 2,
+        "explanation": "Python uses Timsort — a hybrid of Merge Sort and Insertion Sort — for its built-in sort."
+      },
+      {
+        "id": "q_py_dsa_5",
+        "question": "What is the difference between a list and a tuple in Python?",
+        "options": [
+          "Tuples can store only numbers",
+          "Lists are immutable, tuples are mutable",
+          "Tuples are immutable, lists are mutable",
+          "There is no difference"
+        ],
+        "answer": 2,
+        "explanation": "Tuples are immutable (can't be changed after creation), while lists are mutable."
+      },
+      {
+        "id": "q_py_dsa_6",
+        "question": "How do you implement a stack in Python?",
+        "options": [
+          "Using collections.deque only",
+          "Using a list with append() and pop()",
+          "Using a dictionary",
+          "Using a set"
+        ],
+        "answer": 1,
+        "explanation": "A Python list acts as a stack using append() to push and pop() to remove the last (top) element."
+      },
+      {
+        "id": "q_py_dsa_7",
+        "question": "What is `collections.deque` best used for in Python?",
+        "options": [
+          "Hash table operations",
+          "Implementing queues and double-ended queues efficiently",
+          "Sorting large datasets",
+          "Storing key-value pairs"
+        ],
+        "answer": 1,
+        "explanation": "deque supports O(1) appends and pops from both ends, making it ideal for queues and deques."
+      },
+      {
+        "id": "q_py_dsa_8",
+        "question": "What is the output of `[x**2 for x in range(4)]`?",
+        "options": ["[1,4,9,16]", "[0,1,4,9]", "[0,1,2,3]", "[1,2,3,4]"],
+        "answer": 1,
+        "explanation": "List comprehension squares 0,1,2,3 → [0, 1, 4, 9]."
+      },
+      {
+        "id": "q_py_dsa_9",
+        "question": "What is the time complexity of checking membership in a Python set?",
+        "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+        "answer": 2,
+        "explanation": "Python sets are hash tables, so membership checks (in operator) are O(1) on average."
+      },
+      {
+        "id": "q_py_dsa_10",
+        "question": "Which traversal of a BST gives nodes in sorted order?",
+        "options": ["Pre-order", "Post-order", "In-order", "Level-order"],
+        "answer": 2,
+        "explanation": "In-order traversal (Left → Root → Right) of a BST visits nodes in ascending sorted order."
+      },
+      {
+        "id": "q_py_dsa_11",
+        "question": "What does `heapq.heappush(heap, item)` do in Python?",
+        "options": [
+          "Removes the smallest element",
+          "Pushes item onto heap maintaining heap property",
+          "Sorts the heap",
+          "Converts list to heap"
+        ],
+        "answer": 1,
+        "explanation": "heappush() pushes item onto the heap while maintaining the min-heap invariant."
+      },
+      {
+        "id": "q_py_dsa_12",
+        "question": "What is the space complexity of recursive DFS on a graph with V vertices?",
+        "options": ["O(1)", "O(V)", "O(V²)", "O(log V)"],
+        "answer": 1,
+        "explanation": "Recursive DFS uses the call stack which can go up to O(V) deep in the worst case."
+      },
+      {
+        "id": "q_py_dsa_13",
+        "question": "How do you reverse a list in Python without creating a new list?",
+        "options": ["list.reverse()", "reversed(list)", "list[::-1]", "list.sort(reverse=True)"],
+        "answer": 0,
+        "explanation": "list.reverse() reverses the list in-place, modifying the original list without creating a new one."
+      },
+      {
+        "id": "q_py_dsa_14",
+        "question": "What is the purpose of `defaultdict` from the collections module?",
+        "options": [
+          "Returns None for missing keys",
+          "Provides a default value for missing keys automatically",
+          "Sorts dictionary keys",
+          "Creates an immutable dictionary"
+        ],
+        "answer": 1,
+        "explanation": "defaultdict automatically creates a default value (using a factory function) when a missing key is accessed."
+      },
+      {
+        "id": "q_py_dsa_15",
+        "question": "What is the time complexity of Merge Sort?",
+        "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+        "answer": 1,
+        "explanation": "Merge Sort always divides the array in half and merges, giving O(n log n) in all cases."
+      }
+    ]
+  },
+  "quiz_py_oop": {
+    "id": "quiz_py_oop",
+    "topic_id": "py_oop",
+    "title": "Python OOP Quiz",
+    "questions": [
+      {
+        "id": "q_py_oop_1",
+        "question": "Which method is automatically called when a new object is created in Python?",
+        "options": ["__new__", "__init__", "__create__", "__start__"],
+        "answer": 1,
+        "explanation": "__init__ is the constructor method, automatically called to initialize a new object's attributes."
+      },
+      {
+        "id": "q_py_oop_2",
+        "question": "What does `self` refer to in a Python class method?",
+        "options": [
+          "The class itself",
+          "The parent class",
+          "The current instance of the class",
+          "A global variable"
+        ],
+        "answer": 2,
+        "explanation": "`self` is a reference to the current instance of the class, used to access instance attributes and methods."
+      },
+      {
+        "id": "q_py_oop_3",
+        "question": "Which Python keyword is used for inheritance?",
+        "options": ["inherits", "extends", "Parentheses with the parent class name", "super"],
+        "answer": 2,
+        "explanation": "In Python, you specify the parent class in parentheses: `class Child(Parent):`"
+      },
+      {
+        "id": "q_py_oop_4",
+        "question": "What is method overriding in Python?",
+        "options": [
+          "Defining two methods with the same name in one class",
+          "Replacing a parent class method with a new implementation in the child class",
+          "Calling a method twice",
+          "Using decorators on methods"
+        ],
+        "answer": 1,
+        "explanation": "Method overriding allows a child class to provide its own implementation of a method defined in the parent class."
+      },
+      {
+        "id": "q_py_oop_5",
+        "question": "What does the `@property` decorator do in Python?",
+        "options": [
+          "Makes a method static",
+          "Allows a method to be accessed like an attribute",
+          "Marks a method as abstract",
+          "Makes a method private"
+        ],
+        "answer": 1,
+        "explanation": "@property allows you to define a method that can be accessed like an attribute, without calling it explicitly."
+      },
+      {
+        "id": "q_py_oop_6",
+        "question": "How do you make an attribute private in Python (by convention)?",
+        "options": [
+          "Using the `private` keyword",
+          "Enclosing it in square brackets",
+          "Prefixing with double underscore `__`",
+          "Declaring it outside the class"
+        ],
+        "answer": 2,
+        "explanation": "Prefixing an attribute with `__` (double underscore) triggers name mangling, making it private by convention."
+      },
+      {
+        "id": "q_py_oop_7",
+        "question": "What is `super()` used for in Python?",
+        "options": [
+          "To access global variables",
+          "To call the parent class's methods or constructor",
+          "To make a class abstract",
+          "To override a method"
+        ],
+        "answer": 1,
+        "explanation": "super() gives access to the parent class, commonly used to call its __init__ and other methods."
+      },
+      {
+        "id": "q_py_oop_8",
+        "question": "Which of the following represents multiple inheritance in Python?",
+        "options": [
+          "class C(A): class C(B):",
+          "class C(A, B):",
+          "class C extends A, B:",
+          "class C inherits A and B:"
+        ],
+        "answer": 1,
+        "explanation": "Python supports multiple inheritance by listing multiple parent classes: `class C(A, B):`"
+      },
+      {
+        "id": "q_py_oop_9",
+        "question": "What is the output of `type(42)` in Python?",
+        "options": ["int", "<class 'int'>", "integer", "number"],
+        "answer": 1,
+        "explanation": "type() returns the class of the object. For 42, it returns `<class 'int'>`."
+      },
+      {
+        "id": "q_py_oop_10",
+        "question": "What is a class method in Python?",
+        "options": [
+          "A method that can only be called once",
+          "A method that takes `cls` as first parameter and is bound to the class",
+          "A method that has no parameters",
+          "A method defined outside the class"
+        ],
+        "answer": 1,
+        "explanation": "Class methods use @classmethod decorator and take `cls` (the class) as their first argument instead of `self`."
+      },
+      {
+        "id": "q_py_oop_11",
+        "question": "What is a static method in Python?",
+        "options": [
+          "A method that modifies class state",
+          "A method that belongs to an instance only",
+          "A method that doesn't receive the instance or class as first argument",
+          "A method that runs at startup"
+        ],
+        "answer": 2,
+        "explanation": "Static methods (@staticmethod) don't receive `self` or `cls`, they behave like regular functions inside a class."
+      },
+      {
+        "id": "q_py_oop_12",
+        "question": "Which dunder method is called when you use `str(obj)` on a Python object?",
+        "options": ["__repr__", "__str__", "__format__", "__print__"],
+        "answer": 1,
+        "explanation": "__str__ defines the human-readable string representation of an object, called by str() and print()."
+      },
+      {
+        "id": "q_py_oop_13",
+        "question": "What is the MRO (Method Resolution Order) in Python?",
+        "options": [
+          "The order in which Python executes methods",
+          "The order Python searches parent classes when resolving method calls",
+          "The memory allocation order for class instances",
+          "The order in which objects are garbage collected"
+        ],
+        "answer": 1,
+        "explanation": "MRO defines the order in which Python searches classes to find a method during inheritance, using the C3 linearization algorithm."
+      },
+      {
+        "id": "q_py_oop_14",
+        "question": "What does `isinstance(obj, ClassName)` check?",
+        "options": [
+          "If obj is exactly an instance of ClassName only",
+          "If obj is an instance of ClassName or any of its subclasses",
+          "If ClassName is a subclass of obj's class",
+          "If obj and ClassName share the same attributes"
+        ],
+        "answer": 1,
+        "explanation": "isinstance() returns True if obj is an instance of ClassName or any class derived from it."
+      },
+      {
+        "id": "q_py_oop_15",
+        "question": "What is the purpose of `__slots__` in a Python class?",
+        "options": [
+          "To define allowed method names",
+          "To restrict the creation of a __dict__ and limit attributes, saving memory",
+          "To enable multiple inheritance",
+          "To define class-level constants"
+        ],
+        "answer": 1,
+        "explanation": "__slots__ restricts instances to only the listed attributes, preventing __dict__ creation and saving memory."
+      }
+    ]
+  }
+}

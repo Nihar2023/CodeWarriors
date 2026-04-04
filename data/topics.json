@@ -1,0 +1,34 @@
+[
+  {
+    "id": "js_dsa",
+    "subject_id": "js",
+    "name": "Data Structures and Algorithms",
+    "description": "Arrays, linked lists, trees, sorting, and searching in JavaScript",
+    "resources": ["res_js_dsa_1", "res_js_dsa_2", "res_js_dsa_3"],
+    "quiz_ids": ["quiz_js_dsa"]
+  },
+  {
+    "id": "js_oop",
+    "subject_id": "js",
+    "name": "Object-Oriented Programming",
+    "description": "Classes, inheritance, encapsulation, and polymorphism in JavaScript",
+    "resources": ["res_js_oop_1", "res_js_oop_2", "res_js_oop_3"],
+    "quiz_ids": ["quiz_js_oop"]
+  },
+  {
+    "id": "py_dsa",
+    "subject_id": "py",
+    "name": "Data Structures and Algorithms",
+    "description": "Lists, dictionaries, trees, sorting, and searching in Python",
+    "resources": ["res_py_dsa_1", "res_py_dsa_2", "res_py_dsa_3"],
+    "quiz_ids": ["quiz_py_dsa"]
+  },
+  {
+    "id": "py_oop",
+    "subject_id": "py",
+    "name": "Object-Oriented Programming",
+    "description": "Classes, inheritance, encapsulation, and polymorphism in Python",
+    "resources": ["res_py_oop_1", "res_py_oop_2", "res_py_oop_3"],
+    "quiz_ids": ["quiz_py_oop"]
+  }
+]

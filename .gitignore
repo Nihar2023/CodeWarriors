@@ -1,0 +1,14 @@
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
+.env
+data/personalized_quizzes/
+data/entry_quiz_sessions/
+.env

@@ -1,0 +1,186 @@
+{
+  "55b89847-dc87-4aa6-a876-c803a7f7ea74": {
+    "topics": {
+      "js_dsa": {
+        "completed_resources": [
+          "res_js_dsa_1"
+        ],
+        "resource_completion_pct": 33.3,
+        "last_updated": "2026-04-03T09:24:38.647794",
+        "quiz_scores": [
+          0.0
+        ],
+        "latest_quiz_score": 0.0,
+        "quiz_attempts_count": 1,
+        "best_quiz_score": 0.0,
+        "avg_quiz_score": 0.0,
+        "last_quiz_at": "2026-04-03T09:27:37.209414"
+      }
+    },
+    "game_results": [
+      {
+        "game_id": "debug_code",
+        "game_name": "Debug the Code",
+        "difficulty": "hard",
+        "score": 0.0,
+        "accuracy": 0.0,
+        "attempts": 0,
+        "completion_time": 0.0,
+        "completion_status": "completed",
+        "played_at": "2026-04-03T09:38:18.754162"
+      }
+    ]
+  },
+  "d021da9f-4b05-4760-851e-d5bed97d721a": {
+    "topics": {
+      "js_dsa": {
+        "quiz_scores": [
+          46.7
+        ],
+        "latest_quiz_score": 46.7,
+        "quiz_attempts_count": 1,
+        "best_quiz_score": 46.7,
+        "avg_quiz_score": 46.7,
+        "last_quiz_at": "2026-04-03T15:16:31.151148"
+      }
+    }
+  },
+  "020545e5-5d80-4f31-a702-13d2b83ab100": {
+    "topics": {
+      "js_dsa": {
+        "completed_resources": [
+          "res_js_dsa_3",
+          "res_js_dsa_1",
+          "res_js_dsa_2"
+        ],
+        "resource_completion_pct": 100.0,
+        "last_updated": "2026-04-03T16:21:45.146573",
+        "quiz_scores": [
+          46.7
+        ],
+        "latest_quiz_score": 46.7,
+        "quiz_attempts_count": 1,
+        "best_quiz_score": 46.7,
+        "avg_quiz_score": 46.7,
+        "last_quiz_at": "2026-04-03T16:23:01.651229"
+      }
+    },
+    "game_results": [
+      {
+        "game_id": "syntax_builder",
+        "game_name": "Syntax Builder",
+        "difficulty": "easy",
+        "score": 10.0,
+        "accuracy": -1.0,
+        "attempts": 1,
+        "completion_time": 0.0,
+        "completion_status": "completed",
+        "played_at": "2026-04-03T16:38:01.711557"
+      },
+      {
+        "game_id": "syntax_builder",
+        "game_name": "Syntax Builder",
+        "difficulty": "easy",
+        "score": 10.0,
+        "accuracy": -1.0,
+        "attempts": 6,
+        "completion_time": 0.0,
+        "completion_status": "completed",
+        "played_at": "2026-04-03T16:38:57.022983"
+      }
+    ]
+  },
+  "62cfbbd6-ebbf-44d0-8844-af4f02bc2fcc": {
+    "embedded_game_results": [
+      {
+        "topic_id": "js_dsa",
+        "game_id": "concept_match_js_dsa",
+        "score": 4.0,
+        "accuracy": 33.0,
+        "attempts": 12,
+        "completion_time": 15.519,
+        "completed": true,
+        "played_at": "2026-04-03T22:09:02.773635"
+      },
+      {
+        "topic_id": "js_dsa",
+        "game_id": "order_blocks_js_dsa",
+        "score": 0.0,
+        "accuracy": 0.0,
+        "attempts": 17,
+        "completion_time": 19.608,
+        "completed": false,
+        "played_at": "2026-04-03T22:09:29.419639"
+      },
+      {
+        "topic_id": "js_dsa",
+        "game_id": "speed_tf_js_dsa",
+        "score": 0.0,
+        "accuracy": 0.0,
+        "attempts": 3,
+        "completion_time": 3.584,
+        "completed": true,
+        "played_at": "2026-04-03T22:09:35.568936"
+      },
+      {
+        "topic_id": "js_oop",
+        "game_id": "concept_match_js_oop",
+        "score": 3.0,
+        "accuracy": 25.0,
+        "attempts": 12,
+        "completion_time": 7.864,
+        "completed": true,
+        "played_at": "2026-04-03T22:09:53.055894"
+      }
+    ]
+  },
+  "d9826954-2aae-4ef1-b259-fe918a9bcb27": {
+    "topics": {
+      "js_dsa": {
+        "completed_resources": [
+          "res_js_dsa_1"
+        ],
+        "resource_completion_pct": 25.0,
+        "last_updated": "2026-04-03T22:34:12.544241"
+      }
+    },
+    "embedded_game_results": [
+      {
+        "topic_id": "py_oop",
+        "game_id": "concept_match_py_oop",
+        "score": 3.0,
+        "accuracy": 30.0,
+        "attempts": 10,
+        "completion_time": 7.098,
+        "completed": true,
+        "played_at": "2026-04-03T22:35:20.643419"
+      }
+    ]
+  },
+  "b5d3874b-c521-429e-b514-6987f117f9fa": {
+    "topics": {
+      "py_dsa": {
+        "completed_resources": [
+          "res_py_dsa_1b",
+          "res_py_dsa_3",
+          "res_py_dsa_1",
+          "res_py_dsa_2"
+        ],
+        "resource_completion_pct": 100.0,
+        "last_updated": "2026-04-04T02:35:33.848991"
+      }
+    },
+    "embedded_game_results": [
+      {
+        "topic_id": "py_dsa",
+        "game_id": "speed_tf_py_dsa",
+        "score": 2.0,
+        "accuracy": 100.0,
+        "attempts": 2,
+        "completion_time": 7.297,
+        "completed": true,
+        "played_at": "2026-04-04T02:36:12.837516"
+      }
+    ]
+  }
+}

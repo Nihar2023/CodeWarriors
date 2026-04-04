@@ -1,0 +1,14 @@
+[
+  {
+    "id": "js",
+    "name": "JavaScript",
+    "description": "Modern JavaScript from basics to advanced concepts",
+    "topics": ["js_dsa", "js_oop"]
+  },
+  {
+    "id": "py",
+    "name": "Python",
+    "description": "Python programming from fundamentals to data structures",
+    "topics": ["py_dsa", "py_oop"]
+  }
+]

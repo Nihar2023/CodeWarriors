@@ -1,0 +1,159 @@
+[
+  {
+    "id": "55b89847-dc87-4aa6-a876-c803a7f7ea74",
+    "username": "cw",
+    "email": "nihardukale21@gmail.com",
+    "password": "$2b$12$XRxxXOHa5cumVuPDeiXvCOOk0vp2xH3G1M7fMrb1TSG1EYPtCSUQy",
+    "full_name": "Nihar Dukale",
+    "selected_subjects": [
+      "js"
+    ],
+    "created_at": "2026-04-03T09:15:11.009548"
+  },
+  {
+    "id": "b01cd094-ff79-47bc-abbb-e5574736b5e6",
+    "username": "n",
+    "email": "n@gmail.com",
+    "password": "$2b$12$Z.3t4w46BRMi/r2G03sv6eah0ARCIdezqKL6AzsgIvMa67YpnrMA2",
+    "full_name": "strings",
+    "selected_subjects": [],
+    "created_at": "2026-04-03T14:33:01.318795"
+  },
+  {
+    "id": "d021da9f-4b05-4760-851e-d5bed97d721a",
+    "username": "nn",
+    "email": "nihardukale@gmail.com",
+    "password": "$2b$12$p6yDulOwfgKCoylwf2mH9Ov9C.eKmJet3H1NgHXl8RxJ79eQiPy6y",
+    "full_name": "n",
+    "selected_subjects": [
+      "js",
+      "py"
+    ],
+    "created_at": "2026-04-03T15:15:48.315704"
+  },
+  {
+    "id": "020545e5-5d80-4f31-a702-13d2b83ab100",
+    "username": "nat",
+    "email": "tejas@gmail.com",
+    "password": "$2b$12$JQXOZSkGnwUWJBOPUR6aC./bcJYcbMo/KPdx7iD.VbnDrbl2YoQC6",
+    "full_name": "n",
+    "selected_subjects": [
+      "js",
+      "py"
+    ],
+    "created_at": "2026-04-03T16:18:14.934513"
+  },
+  {
+    "id": "62cfbbd6-ebbf-44d0-8844-af4f02bc2fcc",
+    "username": "b",
+    "email": "c",
+    "password": "$2b$12$2RWrQzf7VljrQYGrQZkS9uURtKs4yVMqKd2jL7GxgyTPHFXm0JPiC",
+    "full_name": "a",
+    "selected_subjects": [
+      "js"
+    ],
+    "created_at": "2026-04-03T22:06:20.585344",
+    "profile": {
+      "age": 20,
+      "year_of_college": 2,
+      "college_name": "ph",
+      "learning_goals": "f",
+      "onboarding_complete": true
+    },
+    "entry_quiz_completed": true,
+    "skill_level": "beginner",
+    "entry_quiz_result": {
+      "score": 7,
+      "total": 30,
+      "score_pct": 23.3,
+      "skill_level": "beginner",
+      "time_taken_seconds": 43,
+      "completed_at": "2026-04-03T22:07:23.345625"
+    }
+  },
+  {
+    "id": "6dd82c32-cedd-457b-ae88-d52500af0f83",
+    "username": "a",
+    "email": "a",
+    "password": "$2b$12$zOtBQjLdvBpD05tAnl8gf.rYPzfDCOavFYwBlFDDE/./9hUlLe3Oa",
+    "full_name": "a",
+    "selected_subjects": [
+      "py"
+    ],
+    "created_at": "2026-04-03T22:12:43.915599",
+    "profile": {
+      "age": 21,
+      "year_of_college": 2,
+      "college_name": "1",
+      "learning_goals": "2",
+      "onboarding_complete": true
+    },
+    "entry_quiz_completed": true,
+    "skill_level": "beginner",
+    "entry_quiz_result": {
+      "score": 4,
+      "total": 30,
+      "score_pct": 13.3,
+      "skill_level": "beginner",
+      "time_taken_seconds": 48,
+      "completed_at": "2026-04-03T22:13:39.826887"
+    }
+  },
+  {
+    "id": "d9826954-2aae-4ef1-b259-fe918a9bcb27",
+    "username": "bb",
+    "email": "ccc",
+    "password": "$2b$12$gKcLhhvCOelhAHPnNVl31eRA.sVe0.BeWPvXQrOG.0ilHZJtcrM1W",
+    "full_name": "a",
+    "selected_subjects": [
+      "js",
+      "py"
+    ],
+    "created_at": "2026-04-03T22:30:17.142445",
+    "profile": {
+      "age": 23,
+      "year_of_college": 8,
+      "college_name": "12",
+      "learning_goals": "12",
+      "onboarding_complete": true
+    },
+    "entry_quiz_completed": true,
+    "skill_level": "beginner",
+    "entry_quiz_result": {
+      "score": 4,
+      "total": 60,
+      "score_pct": 6.7,
+      "skill_level": "beginner",
+      "time_taken_seconds": 82,
+      "completed_at": "2026-04-03T22:32:17.199846"
+    }
+  },
+  {
+    "id": "b5d3874b-c521-429e-b514-6987f117f9fa",
+    "username": "Nihar",
+    "email": "nihardukale31@gmail.com",
+    "password": "$2b$12$KdY9citsOyvsMc2Zo5cwzet51MEFPhI3YijL.i5pu9HGEZIIGjWaO",
+    "full_name": "Nihar Dukale",
+    "selected_subjects": [
+      "py"
+    ],
+    "created_at": "2026-04-04T02:32:38.977182",
+    "profile": {
+      "age": 21,
+      "year_of_college": 4,
+      "college_name": "pvg",
+      "learning_goals": "dsa",
+      "onboarding_complete": true
+    },
+    "entry_quiz_completed": true,
+    "skill_level": "beginner",
+    "entry_quiz_result": {
+      "score": 11,
+      "total": 30,
+      "score_pct": 36.7,
+      "skill_level": "beginner",
+      "time_taken_seconds": 62,
+      "completed_at": "2026-04-04T02:34:02.325827"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "55b89847-dc87-4aa6-a876-c803a7f7ea74": {
+    "js_dsa": [
+      {
+        "attempt_id": "72a44d70-29aa-4802-959d-f787a7b28005",
+        "user_id": "55b89847-dc87-4aa6-a876-c803a7f7ea74",
+        "quiz_id": "quiz_js_dsa",
+        "topic_id": "js_dsa",
+        "score": 0,
+        "total": 15,
+        "score_pct": 0.0,
+        "answers": {
+          "additionalProp1": 0,
+          "additionalProp2": 0,
+          "additionalProp3": 0
+        },
+        "submitted_at": "2026-04-03T09:27:37.209414"
+      }
+    ]
+  },
+  "d021da9f-4b05-4760-851e-d5bed97d721a": {
+    "js_dsa": [
+      {
+        "attempt_id": "28d00dbd-6acf-43b3-bd41-04a4c95bd731",
+        "user_id": "d021da9f-4b05-4760-851e-d5bed97d721a",
+        "quiz_id": "quiz_js_dsa",
+        "topic_id": "js_dsa",
+        "score": 7,
+        "total": 15,
+        "score_pct": 46.7,
+        "answers": {
+          "q_js_dsa_1": 0,
+          "q_js_dsa_2": 1,
+          "q_js_dsa_3": 1,
+          "q_js_dsa_4": 0,
+          "q_js_dsa_5": 0,
+          "q_js_dsa_6": 1,
+          "q_js_dsa_7": 1,
+          "q_js_dsa_8": 3,
+          "q_js_dsa_9": 3,
+          "q_js_dsa_10": 3,
+          "q_js_dsa_11": 2,
+          "q_js_dsa_12": 2,
+          "q_js_dsa_13": 2,
+          "q_js_dsa_14": 2,
+          "q_js_dsa_15": 1
+        },
+        "submitted_at": "2026-04-03T15:16:31.151148"
+      }
+    ]
+  },
+  "020545e5-5d80-4f31-a702-13d2b83ab100": {
+    "js_dsa": [
+      {
+        "attempt_id": "f20e8f7c-19a3-4b6a-80a1-b9ff3d78b69d",
+        "user_id": "020545e5-5d80-4f31-a702-13d2b83ab100",
+        "quiz_id": "quiz_js_dsa",
+        "topic_id": "js_dsa",
+        "score": 7,
+        "total": 15,
+        "score_pct": 46.7,
+        "answers": {
+          "q_js_dsa_1": 0,
+          "q_js_dsa_2": 2,
+          "q_js_dsa_3": 1,
+          "q_js_dsa_4": 2,
+          "q_js_dsa_5": 1,
+          "q_js_dsa_6": 2,
+          "q_js_dsa_7": 1,
+          "q_js_dsa_8": 0,
+          "q_js_dsa_9": 2,
+          "q_js_dsa_10": 1,
+          "q_js_dsa_11": 2,
+          "q_js_dsa_12": 1,
+          "q_js_dsa_13": 0,
+          "q_js_dsa_14": 1,
+          "q_js_dsa_15": 1
+        },
+        "submitted_at": "2026-04-03T16:23:01.638812"
+      }
+    ]
+  }
+}
